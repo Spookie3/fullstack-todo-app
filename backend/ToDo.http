@@ -1,0 +1,29 @@
+@ToDo_HostAddress = https://localhost:8000
+
+### GET
+GET {{ToDo_HostAddress}}/api/todos
+Accept: application/json
+
+### GET todo by ID
+GET {{ToDo_HostAddress}}/api/todos/1
+Accept: application/json
+
+### POST
+POST {{ToDo_HostAddress}}/api/todos
+Content-Type: application/json
+
+{
+  "title": "Bake bread"
+}
+
+### PUT
+PUT {{ToDo_HostAddress}}/api/todos/6
+Content-Type: application/json
+
+{
+  "title": "",
+  "isCompleted": true
+}
+
+### DELETE
+DELETE {{ToDo_HostAddress}}/api/todos/5

@@ -1,0 +1,43 @@
+#root {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+form {
+  display: flex;
+  gap: 0.75rem;
+}
+
+form input {
+  flex: 1;
+  padding: 0.75rem;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #8885;
+}
+
+li span {
+  flex: 1;
+}
